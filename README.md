@@ -6,7 +6,7 @@ This requires rooting your Roborock vacuum to gain access to the filesystem for 
 
 Although the pack is designed for Roborock vacuums (tested on S5 max), it can be used on other vacuums with modifications (see modify section)
 
-More info about how to root: [Devices]("https://valetudo.cloud/pages/general/supported-robots.html"), [FEL Rooting]("https://valetudo.cloud/pages/installation/roborock.html")
+More info about how to root: [Devices](https://valetudo.cloud/pages/general/supported-robots.html), [FEL Rooting](https://valetudo.cloud/pages/installation/roborock.html)
 
 Although Valetudo is not required, it is recommended due to its stability and ease of updating.
 
@@ -15,7 +15,7 @@ Although Valetudo is not required, it is recommended due to its stability and ea
 As of the 2023 Roborock firmware, the underlying system uses a read only compressed filesystem for media files known as SquashFS.
 Presumably, Roborock does ths to save storage space. However, this means we can't easily modify the original files without making a new SquashFS system every time we want to change something.
 
-(Partially thanks to Valetudo) there is plenty of space on the vacuum storage. We can instead simply bind mount the original soundpack location to a new writable directory [credit u/shompyblah for finding a safe bind]("https://www.reddit.com/r/Roborock/comments/tfl9wd/comment/i0wipfm/?utm_source=share&utm_medium=web2x&context=3").
+(Partially thanks to Valetudo) there is plenty of space on the vacuum storage. We can instead simply bind mount the original soundpack location to a new writable directory [credit u/shompyblah for finding a safe bind](https://www.reddit.com/r/Roborock/comments/tfl9wd/comment/i0wipfm/?utm_source=share&utm_medium=web2x&context=3).
 
 To install this soundpack:
 
